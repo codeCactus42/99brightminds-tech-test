@@ -6,3 +6,17 @@
 /* End-user path: heroui-native lives in the project's node_modules, one
    level up from this src/global.css file. */
 @source '../node_modules/heroui-native/lib';
+
+@layer theme {
+  :root {
+    @variant light {
+      --accent: #08b7a5;
+      --focus: var(--accent);
+    }
+
+    @variant dark {
+      --accent: #08b7a5;
+      --focus: var(--accent);
+    }
+  }
+}
